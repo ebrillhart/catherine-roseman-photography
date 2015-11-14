@@ -1,0 +1,116 @@
+html.index {
+    background: url(../images/backgroundimg.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#toprow {
+	margin-top: 20px;
+}
+
+div#title {
+	border: 1px solid white;
+	margin-top: 125px;
+	background-color:rgba(255,255,255,0.25);
+}
+
+footer.page-footer {
+	background-color: #252525;
+}
+
+#titletext {
+	margin-left: 50px;
+	font-weight: 300;
+}
+
+.logotext {
+	font-weight: 300;
+	margin-left: 15px;
+}
+
+.side-btns {
+	margin-left: 15px;
+}
+
+.char1, #titletext .char11, #titletext .char19 {
+	font-weight: 500;
+}
+
+#buttons {
+	margin-top: 70px;
+}
+
+.copyright {
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+}
+
+#builtby {
+	margin-top: 0px;
+	padding-top: 0px;
+}
+
+#builtby a {
+	color: white;
+}
+
+#people a, #places a {
+	color: black;
+}
+
+.btn {
+	background-color: #06007F;
+	box-shadow: none;
+	border-radius: 0px;
+}
+
+.btn:hover {
+	background-color: #06007F;
+}
+
+#peoplelink {
+    background: url(../images/peoplelink.jpg) no-repeat center;
+    background-size: cover;
+    margin-left: 30px;
+}
+
+#peoplelink, #placeslink {
+	margin-top: 120px;
+	height: 300px;
+    width: 300px;
+    text-align: center;
+    border: 2px solid black;
+}
+
+#placeslink {
+    background: url(../images/placeslink.jpg) no-repeat center;
+    background-size: cover;
+}
+
+#people {
+	margin-left: 95px;
+}
+
+#places {
+	margin-left: 95px;
+}
+
+#people, #places {
+	background-color:rgba(255,255,255,0.5);
+	border: 1px solid white;
+	padding: 3px;
+}
+
+/* For sticky footer */
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    font-family: Alegreya Sans SC, sans-serif;
+  }
+
+  main {
+    flex: 1 0 auto;
+  }
