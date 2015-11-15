@@ -56,7 +56,7 @@ footer.page-footer {
 	color: white;
 }
 
-#people a, #places a {
+#people a, #places a, #rb a, #alabama a, #st a {
 	color: black;
 }
 
@@ -84,23 +84,61 @@ footer.page-footer {
     border: 2px solid black;
 }
 
-#placeslink {
-    background: url(../images/placeslink.jpg) no-repeat center;
+#rblink, #bamalink, #stlink {
+	margin-top: 120px;
+	height: 250px;
+    width: 250px;
+    text-align: center;
+    border: 2px solid black;
+}
+
+#rb, #alabama, #st {
+	background-color:rgba(255,255,255,0.5);
+	border: 1px solid white;
+	padding: 3px;
+}
+
+#rb {
+	margin-left: 30px;
+}
+
+#alabama {
+	margin-left: 40px;
+}
+
+#st {
+	margin-left: 1px;
+}
+
+#rblink {
+	background: url(../images/rblink.jpg) no-repeat center;
     background-size: cover;
 }
 
-#people {
-	margin-left: 95px;
+#bamalink {
+	background: url(../images/bamalink.jpg) no-repeat center;
+    background-size: cover;
 }
 
-#places {
-	margin-left: 95px;
+#stlink {
+	background: url(../images/stlink.jpeg) no-repeat center;
+    background-size: cover;
+}
+
+#placeslink {
+    background: url(../images/placeslink.jpg) no-repeat center;
+    background-size: cover;
 }
 
 #people, #places {
 	background-color:rgba(255,255,255,0.5);
 	border: 1px solid white;
 	padding: 3px;
+	margin-left: 90px;
+}
+
+.projtitle {
+	font-weight: 300;
 }
 
 /* For sticky footer */
