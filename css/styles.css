@@ -1,3 +1,75 @@
+/********************/
+
+
+/* Full-site styles */
+
+
+/********************/
+
+footer.page-footer {
+    background-color: #252525;
+}
+
+.logotext {
+    font-weight: 300;
+    margin-left: 15px;
+}
+
+.side-btns {
+    margin-left: 15px;
+}
+
+.copyright {
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+#builtby {
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+#builtby a {
+    color: white;
+}
+
+#people a, #places a, #rb a, #alabama a, #st a {
+    color: black;
+}
+
+.btn {
+    background-color: #242249;
+    box-shadow: none;
+    border-radius: 0px;
+}
+
+.btn:hover {
+    background-color: #242249;
+}
+
+
+/* For sticky footer */
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    font-family: Alegreya Sans SC, sans-serif;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+
+/********************/
+
+
+/* Home page styles */
+
+
+/********************/
+
 html.index {
     background: url(../images/backgroundimg.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
@@ -6,68 +78,36 @@ html.index {
     background-size: cover;
 }
 
-#toprow {
-	margin-top: 20px;
-}
-
 div#title {
-	border: 1px solid white;
-	margin-top: 125px;
-	background-color:rgba(255,255,255,0.25);
-}
-
-footer.page-footer {
-	background-color: #252525;
+    border: 1px solid white;
+    margin-top: 125px;
+    background-color: rgba(255, 255, 255, 0.25);
 }
 
 #titletext {
-	margin-left: 50px;
-	font-weight: 300;
-}
-
-.logotext {
-	font-weight: 300;
-	margin-left: 15px;
-}
-
-.side-btns {
-	margin-left: 15px;
+    margin-left: 50px;
+    font-weight: 300;
 }
 
 .char1, #titletext .char11, #titletext .char19 {
-	font-weight: 500;
+    font-weight: 500;
 }
 
 #buttons {
-	margin-top: 70px;
+    margin-top: 70px;
 }
 
-.copyright {
-	margin-bottom: 0px;
-	padding-bottom: 0px;
-}
 
-#builtby {
-	margin-top: 0px;
-	padding-top: 0px;
-}
+/*******************/
 
-#builtby a {
-	color: white;
-}
 
-#people a, #places a, #rb a, #alabama a, #st a {
-	color: black;
-}
+/* Portfolio pages */
 
-.btn {
-	background-color: #06007F;
-	box-shadow: none;
-	border-radius: 0px;
-}
 
-.btn:hover {
-	background-color: #06007F;
+/*******************/
+
+#toprow {
+    margin-top: 20px;
 }
 
 #peoplelink {
@@ -77,52 +117,11 @@ footer.page-footer {
 }
 
 #peoplelink, #placeslink {
-	margin-top: 120px;
-	height: 300px;
+    margin-top: 120px;
+    height: 300px;
     width: 300px;
     text-align: center;
     border: 2px solid black;
-}
-
-#rblink, #bamalink, #stlink {
-	margin-top: 120px;
-	height: 250px;
-    width: 250px;
-    text-align: center;
-    border: 2px solid black;
-}
-
-#rb, #alabama, #st {
-	background-color:rgba(255,255,255,0.5);
-	border: 1px solid white;
-	padding: 3px;
-}
-
-#rb {
-	margin-left: 30px;
-}
-
-#alabama {
-	margin-left: 40px;
-}
-
-#st {
-	margin-left: 1px;
-}
-
-#rblink {
-	background: url(../images/rblink.jpg) no-repeat center;
-    background-size: cover;
-}
-
-#bamalink {
-	background: url(../images/bamalink.jpg) no-repeat center;
-    background-size: cover;
-}
-
-#stlink {
-	background: url(../images/stlink.jpeg) no-repeat center;
-    background-size: cover;
 }
 
 #placeslink {
@@ -131,24 +130,62 @@ footer.page-footer {
 }
 
 #people, #places {
-	background-color:rgba(255,255,255,0.5);
-	border: 1px solid white;
-	padding: 3px;
-	margin-left: 90px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border: 1px solid white;
+    padding: 3px;
+    margin-left: 90px;
+}
+
+
+/*****************/
+
+
+/* Project pages */
+
+
+/*****************/
+
+#rblink, #bamalink, #stlink {
+    margin-top: 120px;
+    height: 250px;
+    width: 250px;
+    text-align: center;
+    border: 2px solid black;
+}
+
+#rb, #alabama, #st {
+    background-color: rgba(255, 255, 255, 0.5);
+    border: 1px solid white;
+    padding: 3px;
+}
+
+#rb {
+    margin-left: 30px;
+}
+
+#alabama {
+    margin-left: 40px;
+}
+
+#st {
+    margin-left: 1px;
+}
+
+#rblink {
+    background: url(../images/rblink.jpg) no-repeat center;
+    background-size: cover;
+}
+
+#bamalink {
+    background: url(../images/bamalink.jpg) no-repeat center;
+    background-size: cover;
+}
+
+#stlink {
+    background: url(../images/stlink.jpeg) no-repeat center;
+    background-size: cover;
 }
 
 .projtitle {
-	font-weight: 300;
+    font-weight: 300;
 }
-
-/* For sticky footer */
-body {
-    display: flex;
-    min-height: 100vh;
-    flex-direction: column;
-    font-family: Alegreya Sans SC, sans-serif;
-  }
-
-  main {
-    flex: 1 0 auto;
-  }
